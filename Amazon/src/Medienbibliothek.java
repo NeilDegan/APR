@@ -22,4 +22,14 @@ public class Medienbibliothek {
 			m.anzeigen();
 		}
 	}
+	
+	public String suchen(String such)
+	{
+            for (Medium medium : medienliste) {
+                if (medium.getTitel().toLowerCase().equals(such.toLowerCase())) {
+                medium.anzeigen();
+                }
+            }
+	
+	}
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
 
 	public static void main(String[] args)
@@ -10,5 +12,9 @@ public class App {
 		bib.mediumHinzufügen(wolf);
 		bib.mediumHinzufügen(star);
 		bib.alleMedienAusgeben();
+		
+		Scanner s = new Scanner;
+		String such = s.nextLine();
+		bib.suchen(such);
 	}
 }
