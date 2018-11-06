@@ -13,8 +13,8 @@ public class App {
 		bib.mediumHinzufügen(star);
 		bib.alleMedienAusgeben();
 		
-		Scanner s = new Scanner;
-		String such = s.nextLine();
-		bib.suchen(such);
+		Scanner scan = new Scanner;
+		String s = scan.nextLine();
+		bib.suchen(s);
 	}
 }
