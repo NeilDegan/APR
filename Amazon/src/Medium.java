@@ -1,13 +1,15 @@
 
 public class Medium {
 	private String titel;
-	private double wert;
-	private String standort;
+	private String genre;
+	private String kommentar;
+	private String erscheinungsdatum;
 
-	public Medium(String titel, double wert, String standort) {
+	public Medium(String titel, String genre, String kommentar, String erscheinungsdatum) {
 		this.titel = titel;
-		this.wert = wert;
-		this.standort = standort;
+		this.genre = genre;
+		this.kommentar = kommentar;
+		this.erscheinungsdatum = erscheinungsdatum;
 	}
 	
 	public String getTitel() {
@@ -18,24 +20,32 @@ public class Medium {
 		this.titel = titel;
 	}
 
-	public double getWert() {
-		return wert;
+	public String getGenre() {
+		return genre;
 	}
 
-	public void setWert(double wert) {
-		this.wert = wert;
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 
-	public String getStandort() {
-		return standort;
+	public String getKommentar() {
+		return kommentar;
 	}
 
-	public void setStandort(String standort) {
-		this.standort = standort;
+	public void setKommentar(String kommentar) {
+		this.kommentar = kommentar;
+	}
+	
+	public String getErscheinungsdatum() {
+		return erscheinungsdatum;
+	}
+
+	public void setErscheinungsdatum(String erscheinungsdatum) {
+		this.erscheinungsdatum = erscheinungsdatum;
 	}
 
 	public void anzeigen()
 	{
-		System.out.println("Medium: Titel -> " + this.getTitel() + " Standort -> " + this.getStandort() + " Wert -> " + this.getWert());
+		System.out.println("Medium: Titel -> " + this.getTitel() + " Genre -> " + this.getGenre() + " Erscheinungsdatum -> " + this.getErscheinungsdatum() + " Kommentar -> " + this.getKommentar());
 	}
 }
