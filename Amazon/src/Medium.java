@@ -1,4 +1,4 @@
-a
+
 public class Medium {
 	private String titel;
 	private String genre;
