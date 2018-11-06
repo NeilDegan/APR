@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Lukas
+ *
+ */
+module Amazin {
+}

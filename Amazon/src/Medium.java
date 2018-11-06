@@ -1,4 +1,4 @@
 
 public class Medium {
-a
+
 }
