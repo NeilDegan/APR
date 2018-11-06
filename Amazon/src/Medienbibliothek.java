@@ -22,3 +22,4 @@ public class Medienbibliothek {
 			m.anzeigen();
 		}
 	}
+}
