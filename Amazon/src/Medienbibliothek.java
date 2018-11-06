@@ -23,7 +23,7 @@ public class Medienbibliothek {
 		}
 	}
 	
-	public String suchen(String such)
+	public void suchen(String such)
 	{
             for (Medium medium : medienliste) {
                 if (medium.getTitel().toLowerCase().equals(such.toLowerCase())) {
